@@ -1,6 +1,6 @@
-# Job Portal Website
+# Job Portal Application
 
-Welcome to the **Job Portal Website** — a modern full-stack web application designed to connect job seekers with employers, featuring an intuitive UI, secure authentication, and a dynamic search experience.
+Welcome to the **Job Portal Application** — a modern full-stack web application designed to connect job seekers with employers, featuring an intuitive UI, secure authentication, and a dynamic search experience.
 
 ---
 
@@ -11,10 +11,7 @@ Welcome to the **Job Portal Website** — a modern full-stack web application de
 - [Installation](#installation)
   - [Backend Setup](#backend-setup)
   - [Frontend Setup](#frontend-setup)
-- [Usage](#usage)
-- [Theme](#theme)
 - [Contributing](#contributing)
-- [License](#license)
 - [Contact](#contact)
 ---
 
@@ -141,6 +138,18 @@ The Job Portal Website aims to streamline the job search and hiring process with
 - Employers can post and manage job listings.
 - Candidates can search and apply for jobs.
 - Admins can monitor and control the system (if admin functionality added).
+
+---
+
+## Contributing
+
+Contributions are welcome! 🚀
+
+1. Fork the repository.
+2. Create your feature branch: `git checkout -b feature/AmazingFeature`
+3. Commit your changes: `git commit -m 'Add some AmazingFeature'`
+4. Push to the branch: `git push origin feature/AmazingFeature`
+5. Open a Pull Request.
 
 ---
 
