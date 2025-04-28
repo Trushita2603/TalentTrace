@@ -1,8 +1,6 @@
-# Adding the Backend and Frontend setup sections more explicitly into the README content.
+# 🧩 Job Portal Website
 
-readme_content_with_setups = """# 🧩 Job Portal Application
-
-Welcome to the **Job Portal Application** — a modern full-stack web application designed to connect job seekers with employers, featuring an intuitive UI, secure authentication, and a dynamic search experience.
+Welcome to the **Job Portal Website** — a modern full-stack web application designed to connect job seekers with employers, featuring an intuitive UI, secure authentication, and a dynamic search experience.
 
 ---
 
@@ -94,3 +92,89 @@ The Job Portal Website aims to streamline the job search and hiring process with
 1. Navigate to the backend directory:
    ```bash
    cd backend
+   ```
+
+2. Install the dependencies and run the Spring Boot application:
+   ```bash
+   mvn clean install
+   mvn spring-boot:run
+   ```
+
+3. Configure your MongoDB URI inside `src/main/resources/application.properties`:
+   ```properties
+   spring.data.mongodb.uri=mongodb://localhost:27017/jobportal
+   ```
+
+4. Ensure MongoDB server is running locally or provide your MongoDB Atlas URL.
+
+---
+
+### 🎨 Frontend Setup
+
+1. Navigate to the frontend directory:
+   ```bash
+   cd frontend
+   ```
+
+2. Install the necessary Node modules:
+   ```bash
+   npm install
+   ```
+
+3. Start the React development server:
+   ```bash
+   npm run dev
+   ```
+
+4. Configure API base URL inside `.env`:
+   ```env
+   VITE_API_URL=http://localhost:8080/api
+   ```
+
+---
+
+## 💻 Usage
+
+- Users can register/login via email or social media.
+- Employers can post and manage job listings.
+- Candidates can search and apply for jobs.
+- Admins can monitor and control the system (if admin functionality added).
+
+---
+
+## 🎨 Theme
+
+- **Dark Mode**  
+  - **Background**: `#2D2D2D`
+  - **Primary Font**: Poppins
+- **Button Color**: `#FFD149`
+- **Color Palette**:
+  - **Mine Shaft** Shades for backgrounds and UI elements.
+  - **Bright Sun** Shades for primary buttons and highlights.
+
+---
+
+## 🤝 Contributing
+
+Contributions are welcome! 🚀
+
+1. Fork the repository.
+2. Create your feature branch: `git checkout -b feature/AmazingFeature`
+3. Commit your changes: `git commit -m 'Add some AmazingFeature'`
+4. Push to the branch: `git push origin feature/AmazingFeature`
+5. Open a Pull Request.
+
+---
+
+## 📄 License
+
+Distributed under the MIT License.  
+See `LICENSE` for more information.
+
+---
+
+## 📬 Contact
+
+- **Project Maintainer**: [Your Name]  
+- **Email**: [your-email@example.com]  
+- **GitHub**: [your-username](https://github.com/your-username)
