@@ -68,7 +68,7 @@ The Job Portal Website aims to streamline the job search and hiring process with
 
 ## 🛠️ Tech Stack
 
-- **Frontend**: React.js, Redux, TailwindCSS, Mantine UI, Tabler Icons
+- **Frontend**: React.js (CRA with TypeScript), Redux, TailwindCSS, Mantine UI, Tabler Icons
 - **Backend**: Spring Boot
 - **Database**: MongoDB
 - **Authentication**: JWT, Google OAuth, LinkedIn OAuth
@@ -109,7 +109,7 @@ The Job Portal Website aims to streamline the job search and hiring process with
 
 ---
 
-### 🎨 Frontend Setup
+### 🎨 Frontend Setup (React + TypeScript using CRA)
 
 1. Navigate to the frontend directory:
    ```bash
@@ -123,13 +123,18 @@ The Job Portal Website aims to streamline the job search and hiring process with
 
 3. Start the React development server:
    ```bash
-   npm run dev
+   npm start
    ```
 
-4. Configure API base URL inside `.env`:
+4. Environment Variables setup: Create a `.env` file inside `frontend/` and configure:
    ```env
-   VITE_API_URL=http://localhost:8080/api
+   REACT_APP_API_URL=http://localhost:8080/api
    ```
+
+5. Note:  
+   - The frontend is built using **Create React App (CRA)** with **TypeScript template**.
+   - All React components are written in `.tsx` files.
+   - Ensure correct TypeScript typings while integrating new libraries or APIs.
 
 ---
 
