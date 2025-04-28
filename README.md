@@ -154,7 +154,7 @@ Contributions are welcome! 🚀
 ---
 
 
-## 📬 Contact
+## Contact
 
 - **Project Maintainer**: [Aman Mathankar]  
 - **Email**: [mathankaraman13@gmail.com]  
