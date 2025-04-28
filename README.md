@@ -15,7 +15,7 @@ Welcome to the **Job Portal Website** — a modern full-stack web application de
 - [Theme](#theme)
 - [Contributing](#contributing)
 - [License](#license)
-
+- [Contact](#contact)
 ---
 
 ## 📖 About
@@ -109,7 +109,7 @@ The Job Portal Website aims to streamline the job search and hiring process with
 
 ---
 
-### 🎨 Frontend Setup (React + TypeScript using CRA)
+### 🎨 Frontend Setup
 
 1. Navigate to the frontend directory:
    ```bash
