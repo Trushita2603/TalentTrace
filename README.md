@@ -1,10 +1,10 @@
-# 🧩 Job Portal Website
+# Job Portal Website
 
 Welcome to the **Job Portal Website** — a modern full-stack web application designed to connect job seekers with employers, featuring an intuitive UI, secure authentication, and a dynamic search experience.
 
 ---
 
-## 📚 Table of Contents
+## Table of Contents
 - [About](#about)
 - [Features](#features)
 - [Tech Stack](#tech-stack)
@@ -18,17 +18,16 @@ Welcome to the **Job Portal Website** — a modern full-stack web application de
 - [Contact](#contact)
 ---
 
-## 📖 About
+## About
 
 The Job Portal Website aims to streamline the job search and hiring process with a rich set of features, including real-time notifications, secure API access, social logins, and an elegant, responsive design.
 
 ---
 
-## ✨ Features
+## Features
 
 ### 1. User Registration and Authentication
 - Register via Email & Password.
-- Social Logins: Google and LinkedIn OAuth integration.
 - Secure Login with JWT token protection.
 - OTP verification via Email.
 - Password Management: Forgot/Reset Password and Change Password.
@@ -51,7 +50,6 @@ The Job Portal Website aims to streamline the job search and hiring process with
 
 ### 5. Notifications and Alerts
 - Real-time Job Alerts based on preferences.
-- Email Notifications for Application Status Updates.
 
 ### 6. Additional Features
 - Save Jobs for future application.
@@ -66,18 +64,17 @@ The Job Portal Website aims to streamline the job search and hiring process with
 
 ---
 
-## 🛠️ Tech Stack
+## Tech Stack
 
-- **Frontend**: React.js (CRA with TypeScript), Redux, TailwindCSS, Mantine UI, Tabler Icons
+- **Frontend**: React.js, Redux, TailwindCSS, Mantine UI, Tabler Icons
 - **Backend**: Spring Boot
 - **Database**: MongoDB
-- **Authentication**: JWT, Google OAuth, LinkedIn OAuth
-- **Email Service**: OTP Verification, Application Notifications
-- **Deployment**: (Optional) AWS, Docker
+- **Authentication**: JWT
+- **Email Service**: OTP Verification
 
 ---
 
-## 🚀 Installation
+## Installation
 
 ### Prerequisites
 - Node.js v16+
@@ -87,7 +84,7 @@ The Job Portal Website aims to streamline the job search and hiring process with
 
 ---
 
-### 📦 Backend Setup
+### Backend Setup
 
 1. Navigate to the backend directory:
    ```bash
@@ -109,7 +106,7 @@ The Job Portal Website aims to streamline the job search and hiring process with
 
 ---
 
-### 🎨 Frontend Setup
+### Frontend Setup
 
 1. Navigate to the frontend directory:
    ```bash
@@ -140,46 +137,16 @@ The Job Portal Website aims to streamline the job search and hiring process with
 
 ## 💻 Usage
 
-- Users can register/login via email or social media.
+- Users can register/login via email.
 - Employers can post and manage job listings.
 - Candidates can search and apply for jobs.
 - Admins can monitor and control the system (if admin functionality added).
 
 ---
 
-## 🎨 Theme
-
-- **Dark Mode**  
-  - **Background**: `#2D2D2D`
-  - **Primary Font**: Poppins
-- **Button Color**: `#FFD149`
-- **Color Palette**:
-  - **Mine Shaft** Shades for backgrounds and UI elements.
-  - **Bright Sun** Shades for primary buttons and highlights.
-
----
-
-## 🤝 Contributing
-
-Contributions are welcome! 🚀
-
-1. Fork the repository.
-2. Create your feature branch: `git checkout -b feature/AmazingFeature`
-3. Commit your changes: `git commit -m 'Add some AmazingFeature'`
-4. Push to the branch: `git push origin feature/AmazingFeature`
-5. Open a Pull Request.
-
----
-
-## 📄 License
-
-Distributed under the MIT License.  
-See `LICENSE` for more information.
-
----
 
 ## 📬 Contact
 
-- **Project Maintainer**: [Your Name]  
-- **Email**: [your-email@example.com]  
-- **GitHub**: [your-username](https://github.com/your-username)
+- **Project Maintainer**: [Aman Mathankar]  
+- **Email**: [mathankaraman13@gmail.com]  
+- **GitHub**: [amanmathankar13](https://github.com/amanmathankar13)
